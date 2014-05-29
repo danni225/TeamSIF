@@ -1,0 +1,3 @@
+// This file declares any user specific prefixes and suffixes set with the /ne command.
+danni225 prefix = "&6Dr.&5 "
+danni225 suffix = " &4Evil"

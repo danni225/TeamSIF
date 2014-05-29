@@ -1,0 +1,51 @@
+timestamps:
+  login: 1401373889106
+  logout: 1401373493385
+  lastteleport: 1400949507494
+  kits:
+    tools: 1395520987977
+    guld: 1395521021225
+    dia: 1395576763213
+    iron: 1395520999576
+ipAddress: 85.235.225.209
+lastlocation:
+  world: Void
+  x: 21.434792599508455
+  y: 182.0
+  z: 126.98788205595625
+  yaw: -1.6755066
+  pitch: 1.0502193
+afk: true
+logoutlocation:
+  world: Void
+  x: 21.44464494379931
+  y: 101.0
+  z: -42.86160544004454
+  yaw: -359.81854
+  pitch: 24.298916
+money: '0'
+geolocation: Denmark
+godmode: false
+homes:
+  home:
+    world: world
+    x: -8143.168564106411
+    y: 63.0
+    z: -295.8730734290786
+    yaw: -195.19583
+    pitch: 3.9000497
+  sand:
+    world: world
+    x: -7402.961374654619
+    y: 65.0
+    z: 314.45855324496273
+    yaw: -270.2655
+    pitch: 23.850368
+  clay:
+    world: world
+    x: -6722.908850605641
+    y: 92.0
+    z: 1510.907221657802
+    yaw: -1.4683923
+    pitch: 0.60002685
+socialspy: true

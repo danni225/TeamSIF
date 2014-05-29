@@ -1,0 +1,12 @@
+# You can use colors in the Messages with § and the letter for a color! More information at the VoteCommand BukkitDev page!
+configuration:
+  vote:
+    votelink1: Votelink
+    votelink2: ' '
+    votelink3: ' '
+    votelink4: ' '
+    message:
+      welcome: §6Welcome to this awesome server! §2You can vote with §7/§6vote §2!
+      message: 'You can Vote here:'
+      prefix: '[Vote]'
+      permissions: You dont have permissions to do this!

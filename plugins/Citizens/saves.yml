@@ -1,0 +1,73 @@
+# Citizens NPC Storage
+
+
+last-created-npc-id: 3
+npc:
+  '2':
+    name: Test3
+    uuid: 1a035d40-f5aa-4ea1-97f2-665d6477fe6d
+    traits:
+      location:
+        world: Void
+        x: '21.152448186057622'
+        y: '100.0'
+        z: '-37.79369186434659'
+        yaw: '-85.75714874267578'
+        pitch: '5.85007381439209'
+      text:
+        talk-close: false
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': Hi, I'm <npc>!
+      spawned: false
+      owner: Pcornel
+    traitnames: spawned,owner,type,location,text
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    name: Test2
+    uuid: 09ba7f1b-8060-445f-89c8-f0590cba1c6f
+    traits:
+      location:
+        world: Void
+        x: '25.631199673313027'
+        y: '100.0'
+        z: '-40.06586881063957'
+        yaw: '-85.75714874267578'
+        pitch: '5.85007381439209'
+      spawned: false
+      owner: Pcornel
+    traitnames: spawned,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    name: Test1
+    uuid: e7780f0c-7cd6-4119-8c5a-bee93939f887
+    traits:
+      location:
+        world: Void
+        x: '27.33271290397242'
+        y: '100.0'
+        z: '-42.75938315743486'
+        yaw: '-85.75714874267578'
+        pitch: '5.85007381439209'
+      spawned: true
+      owner: Pcornel
+    traitnames: spawned,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

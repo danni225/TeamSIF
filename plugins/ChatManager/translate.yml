@@ -1,0 +1,14 @@
+NOPERMS: You dont have Permissions to that Command.
+CONFERROR: Unable to Save Config.
+CHNGPREFIX: Change the Prefix from a player.
+CHNGSUFFIX: Change the Suffix from a player.
+TMYARGS: Too many arguments!
+ONLYPACTION: Only Players can do this.
+SYNTAXERR: Syntax Error.
+PREASK: Which Prefix should <player> have?
+SUASK: Which Suffix should <player> have?
+PLISNOTON: That player is not online!
+PRECHANGED: <player> changed your Prefix.
+SUCHANGED: <player> changed your Suffix.
+SUGOTCHNGD: The Player §7<player>§f has now the Suffix '§f<suffix>§f'.
+PREGOTCHNGD: The Player §7<player>§f has now the Prefix '§f<prefix>§f'.

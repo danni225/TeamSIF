@@ -1,0 +1,17 @@
+ConfigVersion: 2.1.1
+UpdateEvery15Seconds: true
+UsePermissions: false
+UseChatNames: false
+Groups:
+  Member:
+    prefix: '&e'
+    suffix: ''
+  Admin:
+    prefix: '&a'
+    suffix: '[A]'
+prefix1: new
+prefix2: exp
+prefix3: mod
+prefix4: admin
+prefix5: BOSS
+prefix6: idk

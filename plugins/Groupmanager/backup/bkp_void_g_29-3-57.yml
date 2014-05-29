@@ -1,0 +1,577 @@
+groups:
+  Nobody:
+    default: false
+    permissions:
+    - -compassnav.hovedmenu.*
+    - group.nobody
+    inheritance: []
+    info:
+      prefix: '&aNobody&f '
+      build: false
+      suffix: '&b'
+  Gæst:
+    default: false
+    permissions:
+    - group.gæst
+    inheritance: []
+    info:
+      prefix: '&aGæst&f '
+      build: false
+      suffix: '&b'
+  IngenGruppe:
+    default: true
+    permissions:
+    - -bukkit.command.kill
+    - group.ny
+    inheritance:
+    - g:groupmanager_ny
+    - g:bukkit_ny
+    - g:essentials_ny
+    - g:itags_ny
+    info:
+      prefix: '&IngenGruppe&f '
+      build: false
+      suffix: '&f'
+  Rød:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8'
+      build: true
+      suffix: '&f'
+  Rød1:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c1&8]'
+      build: true
+      suffix: '&f'
+  Rød2:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c2&8]'
+      build: true
+      suffix: '&f'       
+  Rød3:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c3&8]'
+      build: true
+      suffix: '&f'       
+  Rød4:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c4&8]'
+      build: true
+      suffix: '&f'       
+  Rød5:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c5&8]'
+      build: true
+      suffix: '&f'       
+  Rød6:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c6&8]'
+      build: true
+      suffix: '&f'       
+  Rød7:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c7&8]'
+      build: true
+      suffix: '&f'       
+  Rød8:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c8&8]'
+      build: true
+      suffix: '&f'       
+  Rød9:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c9&8]'
+      build: true
+      suffix: '&f'       
+  Rød10:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c10&8]'
+      build: true
+      suffix: '&f'
+  Rød11:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c11&8]'
+      build: true
+      suffix: '&f'
+  Rød12:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c12&8]'
+      build: true
+      suffix: '&f'
+  Rød13:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c13&8]'
+      build: true
+      suffix: '&f'
+  Rød14:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c14&8]'
+      build: true
+      suffix: '&f'
+  Rød15:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c15&8]'
+      build: true
+      suffix: '&f'
+  Rød16:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c16&8]'
+      build: true
+      suffix: '&f'       
+  Rød17:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c17&8]'
+      build: true
+      suffix: '&f'
+  Rød18:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c18&8]'
+      build: true
+      suffix: '&f'
+  Rød19:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c19&8]'
+      build: true
+      suffix: '&f'       
+  Rød20:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c20&8]'
+      build: true
+      suffix: '&f'
+  Rød21:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c21&8]'
+      build: true
+      suffix: '&f'
+  Rød22:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c22&8]'
+      build: true
+      suffix: '&f'       
+  Rød23:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c23&8]'
+      build: true
+      suffix: '&f'
+  Rød24:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c24&8]'
+      build: true
+      suffix: '&f'
+  Rød25:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c25&8]'
+      build: true
+      suffix: '&f'       
+  Rød26:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c26&8]'
+      build: true
+      suffix: '&f'
+  Rød27:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c27&8]'
+      build: true
+      suffix: '&f'
+  Rød28:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c28&8]'
+      build: true
+      suffix: '&f'       
+  Rød29:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c29&8]'
+      build: true
+      suffix: '&f'
+  Rød30:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c30&8]'
+      build: true
+      suffix: '&f'
+  Rød31:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c31&8]'
+      build: true
+      suffix: '&f'       
+  Rød32:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c32&8]'
+      build: true
+      suffix: '&f'
+  Rød33:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c33&8]'
+      build: true
+      suffix: '&f'
+  Rød34:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c34&8]'
+      build: true
+      suffix: '&f'       
+  Rød35:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c35&8]'
+      build: true
+      suffix: '&f'
+  Rød36:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c36&8]'
+      build: true
+      suffix: '&f'
+  Rød37:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c37&8]'
+      build: true
+      suffix: '&f'       
+  Rød38:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c38&8]'
+      build: true
+      suffix: '&f'
+  Rød39:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c39&8]'
+      build: true
+      suffix: '&f'
+  Rød40:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&8[&c40&8]'
+      build: true
+      suffix: '&f'
+
+
+  Mod:
+    default: false
+    permissions:
+    - group.mod
+    - herochat.*
+    inheritance:
+    - blå40
+    - g:groupmanager_mod
+    - g:bukkit_mod
+    - g:essentials_mod
+    - g:vanish_mod
+    - g:itags_ny
+    info:
+      prefix: '&3Mod&5 '
+      build: true
+      suffix: '&6'
+  Admin:
+    default: false
+    permissions:
+    - group.admin
+    - compassnav.admin
+    - herochat.*
+    inheritance:
+    - mod
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:vanish_mod
+    - g:itags_ny
+    info:
+      prefix: '&4Admin&5 '
+      build: true
+      suffix: '&6'
+  Ejer:
+    default: false
+    permissions:
+    - group.ejer
+    - herochat.*
+    inheritance:
+    - admin
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:vanish_mod
+    - g:itags_ny
+    info:
+      prefix: '&4Ejer&5 '
+      build: true
+      suffix: '&6'

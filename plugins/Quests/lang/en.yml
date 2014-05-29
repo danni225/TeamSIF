@@ -1,0 +1,389 @@
+questFailed: '*QUEST FAILED*'
+questEditorHeader: Create Quest
+questEditorCreate: Create new Quest
+questEditorEdit: Edit a Quest
+questEditorDelete: Delete Quest
+questEditorName: Set name
+questEditorAskMessage: Set ask message
+questEditorFinishMessage: Set finish message
+questEditorRedoDelay: Set redo delay
+questEditorNPCStart: Set NPC start
+questEditorBlockStart: Set Block start
+questEditorInitialEvent: Set initial Event
+questEditorReqs: Edit Requirements
+questEditorStages: Edit Stages
+questEditorRews: Edit Rewards
+questEditorEnterQuestName: Enter Quest name (or "cancel" to return)
+questEditorEnterAskMessage: Enter ask message (or "cancel" to return)
+questEditorEnterFinishMessage: Enter finish message (or "cancel" to return)
+questEditorEnterRedoDelay: 'Enter amount of time (in milliseconds), 0 to clear the
+  redo delay or -1 to cancel '
+questEditorEnterNPCStart: Enter NPC ID, -1 to clear the NPC start or -2 to cancel
+questEditorEnterBlockStart: 'Right-click on a block to use as a start point, then
+  enter "done" to save,
+
+  or enter "clear" to clear the block start, or "cancel" to return'
+questEditorEnterInitialEvent: Enter an Event name, or enter "clear" to clear the initial Event, or "cancel" to return
+questEditorNameExists: A Quest with that name already exists!
+questEditorBeingEdited: Someone is creating/editing a Quest with that name!
+questEditorInvalidQuestName: Name may not contain commas!
+questEditorInvalidEventName: is not a valid event name!
+questEditorInvalidNPC: No NPC exists with that id!
+questEditorNoStartBlockSelected: You must select a block first.
+questEditorPositiveAmount: Amount must be a positive number.
+questEditorQuestAsRequirement1: The following Quests have
+questEditorQuestAsRequirement2: 'as a requirement:'
+questEditorQuestAsRequirement3: You must modify these Quests so that they do not use it before deleting it.
+questEditorQuestNotFound: Quest not found!
+questEditorEventCleared: Initial Event cleared.
+questEditorSave: Finish and save
+questEditorNeedAskMessage: You must set an ask message!
+questEditorNeedFinishMessage: You must set a finish message!
+questEditorNeedStages: Your Quest has no Stages!
+questEditorSaved: Quest saved! (You will need to perform a Quest reload for it to appear)
+questEditorExited: Are you sure you want to exit without saving?
+questEditorDeleted: Are you sure you want to delete the Quest
+questEditorNoPermsCreate: You do not have permission to create Quests.
+questEditorNoPermsEdit: You do not have permission to edit Quests.
+questEditorNoPermsDelete: You do not have permission to delete Quests.
+stageEditorEditStage: Edit Stage
+stageEditorNewStage: Add new Stage
+stageEditorStages: Stages
+stageEditorStage: Stage
+stageEditorBreakBlocks: Break Blocks
+stageEditorDamageBlocks: Damage Blocks
+stageEditorPlaceBlocks: Place Blocks
+stageEditorUseBlocks: Use Blocks
+stageEditorCutBlocks: Cut Blocks
+stageEditorCatchFish: Catch Fish
+stageEditorFish: fish
+stageEditorKillPlayers: Kill Players
+stageEditorPlayers: players
+stageEditorEnchantItems: Enchant Items
+stageEditorDeliverItems: Deliver Items
+stageEditorTalkToNPCs: Talk to NPCs
+stageEditorKillNPCs: Kill NPCs
+stageEditorKillMobs: Kill Mobs
+stageEditorReachLocs: Reach locations
+stageEditorReachRadii1: Reach within
+stageEditorReachRadii2: blocks of
+stageEditorTameMobs: Tame Mobs
+stageEditorShearSheep: Shear Sheep
+stageEditorEvents: Events
+stageEditorStageEvents: Stage Events
+stageEditorStartEvent: Start Event
+stageEditorStartEventCleared: Start Event cleared.
+stageEditorFinishEvent: Finish Event
+stageEditorFinishEventCleared: Finish Event cleared.
+stageEditorChatEvents: Chat Events
+stageEditorChatTrigger: Chat Trigger
+stageEditorTriggeredBy: Triggered by
+stageEditorChatEventsCleared: Chat Events cleared.
+stageEditorDeathEvent: Death Event
+stageEditorDeathEventCleared: Death Event cleared.
+stageEditorDisconnectEvent: Disconnect Event
+stageEditorDisconnectEventCleared: Disconnect Event cleared.
+stageEditorDelayMessage: Delay Message
+stageEditorDenizenScript: Denizen Script
+stageEditorStartMessage: Start Message
+stageEditorCompleteMessage: Complete Message
+stageEditorDelete: Delete Stage
+stageEditorSetBlockIds: Set block IDs
+stageEditorSetBlockAmounts: Set block amounts
+stageEditorSetDamageAmounts: Set damage amounts
+stageEditorSetPlaceAmounts: Set place amounts
+stageEditorSetUseAmounts: Set use amounts
+stageEditorSetCutAmounts: Set cut amounts
+stageEditorSetKillAmounts: Set kill amounts
+stageEditorSetEnchantAmounts: Set enchant amounts
+stageEditorSetMobAmounts: Set mob amounts
+stageEditorSetEnchantments: Set enchantments
+stageEditorSetItemIds: Set item ids
+stageEditorSetKillIds: Set NPC IDs
+stageEditorSetMobTypes: Set mob types
+stageEditorSetKillLocations: Set kill locations
+stageEditorSetKillLocationRadii: Set kill location radii
+stageEditorSetKillLocationNames: Set kill location names
+stageEditorSetLocations: Set locations
+stageEditorSetLocationRadii: Set location radii
+stageEditorSetLocationNames: Set location names
+stageEditorSetTameAmounts: Set tame amounts
+stageEditorSetShearColors: Set sheep colors
+stageEditorSetShearAmounts: Set shear amounts
+stageEditorEnterBlockIds: Enter block IDs, separating each one by a space, or enter 'cancel' to return.
+stageEditorBreakBlocksPrompt: Enter block amounts (numbers), separating each one by a space, or enter 'cancel' to return.
+stageEditorDamageBlocksPrompt: Enter damage amounts (numbers), separating each one by a space, or enter 'cancel' to return.
+stageEditorPlaceBlocksPrompt: Enter place amounts (numbers), separating each one by a space, or enter 'cancel' to return.
+stageEditorUseBlocksPrompt: Enter use amounts (numbers), separating each one by a space, or enter 'cancel' to return.
+stageEditorCutBlocksPrompt: Enter cut amounts (numbers), separating each one by a space, or enter 'cancel' to return.
+stageEditorCatchFishPrompt: Enter number of fish to catch, or 0 to clear the fish catch objective, or -1 to cancel
+stageEditorKillPlayerPrompt: Enter number of players to kill, or 0 to clear the player kill objective, or -1 to cancel
+stageEditorEnchantTypePrompt: Enter enchantment names, separating each one by a "comma", or enter 'cancel' to return.
+stageEditorEnchantAmountsPrompt: Enter enchant amounts (numbers), separating each one by a space, or enter 'cancel' to return.
+stageEditorItemIDsPrompt: Enter item IDs, separating each one by a space, or enter 'cancel' to return.
+stageEditorNPCPrompt: Enter NPC ids, separating each one by a space, or enter 'cancel' to return.
+stageEditorNPCToTalkToPrompt: Enter NPC IDs, separating each one by a space, or enter 'clear' to clear the NPC ID list, or 'cancel' to return.
+stageEditorDeliveryMessagesPrompt: Enter delivery messages, separating each one by a semi-colon or enter 'cancel' to return
+stageEditorKillNPCsPrompt: Enter kill amounts (numbers), separating each one by a space, or enter 'cancel' to return.
+stageEditorMobsPrompt: Enter mob names separating each one by a space, or enter "cancel" to return
+stageEditorMobAmountsPrompt: Enter mob amounts separating each one by a space, or enter "cancel" to return
+stageEditorMobLocationPrompt: Right-click on a block to select it, then enter "add" to add it to the kill location list, or enter "cancel" to return
+stageEditorMobLocationRadiiPrompt: Enter kill location radii (number of blocks) separating each one by a space, or enter "cancel" to return
+stageEditorMobLocationNamesPrompt: Enter location names separating each one by a "comma", or enter "cancel" to return
+stageEditorReachLocationPrompt: Right-click on a block to select it, then enter "add" to add it to the reach location list, or enter "cancel" to return
+stageEditorReachLocationRadiiPrompt: Enter reach location radii (number of blocks) separating each one by a space, or enter "cancel" to return
+stageEditorReachLocationNamesPrompt: Enter location names separating each one by a "comma", or enter "cancel" to return
+stageEditorTameAmountsPrompt: Enter tame amounts separating each one by a space, or enter "cancel" to return
+stageEditorShearColorsPrompt: Enter sheep colors separating each one by a space, or enter "cancel" to return
+stageEditorShearAmountsPrompt: Enter shear amounts separating each one by a space, or enter "cancel" to return
+stageEditorEventsPrompt: Enter an event name, or enter "clear" to clear the event, or "cancel" to return
+stageEditorChatEventsPrompt: Enter an event name to add, or enter "clear" to clear all chat events, or "cancel" to return
+stageEditorChatEventsTriggerPromptA: Enter a chat trigger for
+stageEditorChatEventsTriggerPromptB: or enter "cancel" to return.
+stageEditorDelayPrompt: Enter time (in milliseconds), or enter "clear" to clear the delay, or "cancel" to return
+stageEditorDelayMessagePrompt: Enter delay message, or enter "clear" to clear the message, or "cancel" to return
+stageEditorScriptPrompt: Enter script name, or enter "clear" to clear the script, or "cancel" to return
+stageEditorStartMessagePrompt: Enter start message, or enter "clear" to clear the message, or "cancel" to return
+stageEditorCompleteMessagePrompt: Enter complete message, or enter "clear" to clear the message, or "cancel" to return
+stageEditorDeliveryAddItem: Add item
+stageEditorDeliveryNPCs: Set NPC IDs
+stageEditorDeliveryMessages: Set delivery messages
+stageEditorContainsDuplicates: List contains duplicates!
+stageEditorInvalidBlockID: is not a valid block ID!
+stageEditorInvalidEnchantment: is not a valid enchantment name!
+stageEditorInvalidNPC: is not a valid NPC ID!
+stageEditorInvalidMob: is not a valid mob name!
+stageEditorInvalidItemID: is not a valid item ID!
+stageEditorInvalidNumber: is not a number!
+stageEditorInvalidDye: is not a valid dye color!
+stageEditorInvalidEvent: is not a valid event name!
+stageEditorDuplicateEvent: Event is already in the list!
+stageEditorInvalidDelay: Delay must be at least one second!
+stageEditorInvalidScript: Denizen script not found!
+stageEditorNoCitizens: Citizens is not installed!
+stageEditorNoDenizen: Denizen is not installed!
+stageEditorPositiveAmount: You must enter a positive number!
+stageEditorNoNumber: Input was not a number!
+stageEditorNotGreaterThanZero: is not greater than 0!
+stageEditorNotListofNumbers: Invalid entry, input was not a list of numbers!
+stageEditorNoDelaySet: You must set a delay first!
+stageEditorNoBlockIds: You must set Block IDs first!
+stageEditorNoEnchantments: You must set enchantments first!
+stageEditorNoItems: You must add items first!
+stageEditorNoDeliveryMessage: You must set at least one delivery message!
+stageEditorNoNPCs: You must set NPC IDs first!
+stageEditorNoMobTypes: You must set mob types first!
+stageEditorNoKillLocations: You must set kill locations first!
+stageEditorNoBlockSelected: You must select a block first.
+stageEditorNoColors: You must set colors first!
+stageEditorNoEnchantmentsSet: No enchantments set
+stageEditorNoItemsSet: No items set
+stageEditorNoMobTypesSet: No mob types set
+stageEditorNoLocationsSet: No locations set
+stageEditorNoColorsSet: No colors set
+stageEditorListNotSameSize: The block IDs list and the amounts list are not the same size!
+stageEditorEnchantmentNotSameSize: The enchantments list, the item id list and the enchant amount list are not the same size!
+stageEditorDeliveriesNotSameSize: The item list and the NPC list are not equal in size!
+stageEditorNPCKillsNotSameSize: The NPC IDs list and the kill amounts list are not the same size!
+stageEditorAllListsNotSameSize: All of your lists are not the same size!
+stageEditorMobTypesNotSameSize: The mob types list and the mob amounts list are not the same size!
+stageEditorTameMobsNotSameSize: The mob types list and the tame amounts list are not the same size!
+stageEditorShearNotSameSize: The sheep colors list and the shear amounts list are not the same size!
+stageEditorListContainsDuplicates: ' List contains duplicates!'
+stageEditorBreakBlocksCleared: Break blocks objective cleared.
+stageEditorDamageBlocksCleared: Damage blocks objective cleared.
+stageEditorPlaceBlocksCleared: Place blocks objective cleared.
+stageEditorUseBlocksCleared: Use blocks objective cleared.
+stageEditorCutBlocksCleared: Cut blocks objective cleared.
+stageEditorEnchantmentsCleared: Enchantment objective cleared.
+stageEditorDeliveriesCleared: Delivery objective cleared.
+stageEditorKillNPCsCleared: Kill NPCs objective cleared.
+stageEditorKillMobsCleared: Kill Mobs objective cleared.
+stageEditorTameCleared: Tame Mobs objective cleared.
+stageEditorShearCleared: Shear Sheep objective cleared.
+stageEditorStartMessageCleared: Start message cleared.
+stageEditorCompleteMessageCleared: Complete message cleared.
+stageEditorConfirmStageDelete: Are you sure you want to delete this stage?
+stageEditorConfirmStageNote: Any Stages after will be shifted back one spot
+stageEditorDeleteSucces: Stage deleted successfully.
+stageEditorEnchantments: Enchantments
+stageEditorNPCNote: 'Note: You may specify the name of the NPC with <npc>'
+stageEditorOptional: Optional
+stageEditorColors: Sheep Colors
+eventEditorTitle: Event Editor
+eventEditorCreate: Create new Event
+eventEditorEdit: Edit an Event
+eventEditorDelete: Delete an Event
+eventEditorNoneToEdit: No Events currently exist to be edited!
+eventEditorNoneToDelete: No Events currently exist to be deleted!
+eventEditorNotFound: Event not found!
+eventEditorExists: Event already exists!
+eventEditorSomeone: Someone is already creating or editing an Event with that name!
+eventEditorAlpha: Name must be alphanumeric!
+eventEditorErrorReadingFile: Error reading Events file.
+eventEditorErrorSaving: An error occurred while saving.
+eventEditorDeleted: Event deleted, Quests and Events reloaded.
+eventEditorSaved: Event saved, Quests and Events reloaded.
+eventEditorEnterEventName: Enter an Event name, or "cancel" to return.
+eventEditorDeletePrompt: Are you sure you want to delete the Event
+eventEditorQuitWithoutSaving: Are you sure you want to quit without saving?
+eventEditorFinishAndSave: Are you sure you want to finish and save the Event
+eventEditorModifiedNote: 'Note: You have modified an Event that the following Quests
+  use:'
+eventEditorForcedToQuit: If you save the Event, anyone who is actively doing any of these Quests will be forced to quit them.
+eventEditorEventInUse: The following Quests use the Event
+eventEditorMustModifyQuests: eventEditorNotFound
+eventEditorListSizeMismatch: The lists are not the same size!
+eventEditorListDuplicates: List contains duplicates!
+eventEditorNotANumberList: Input was not a list of numbers!
+eventEditorInvalidEntry: Invalid entry
+eventEditorSetName: Set name
+eventEditorSetMessage: Set message
+eventEditorClearInv: Clear player inventory
+eventEditorFailQuest: Fail the quest
+eventEditorSetExplosions: Set explosion locations
+eventEditorSetLightning: Set lightning strike locations
+eventEditorSetEffects: Set effects
+eventEditorSetStorm: Set storm
+eventEditorSetThunder: Set thunder
+eventEditorSetMobSpawns: Set mob spawns
+eventEditorSetPotionEffects: Set potion effect types
+eventEditorSetHunger: Set player hunger level
+eventEditorSetSaturation: Set player saturation level
+eventEditorSetHealth: Set player health level
+eventEditorSetTeleport: Set player teleport location
+eventEditorSetCommands: Set commands to execute
+eventEditorItems: Event Items
+eventEditorSetItems: Give items
+eventEditorItemsCleared: Event items cleared.
+eventEditorSetItemIDs: Set item IDs
+eventEditorSetItemAmounts: Set item amounts
+eventEditorNoIDs: No IDs set
+eventEditorMustSetIDs: You must set item IDs first!
+eventEditorInvalidID: ___ is not a valid item ID!
+eventEditorNotGreaterThanZero: ___ is not greater than 0!
+eventEditorNotANumber: ___ is not a number!
+eventEditorStorm: Event Storm
+eventEditorSetWorld: Set world
+eventEditorSetDuration: Set duration
+eventEditorNoWorld: (No world set)
+eventEditorSetWorldFirst: You must set a world first!
+eventEditorInvalidWorld: ___ is not a valid world name!
+eventEditorMustSetStormDuration: You must set a storm duration!
+eventEditorStormCleared: Storm data cleared.
+eventEditorEnterStormWorld: Enter a world name for the storm to occur in, or enter "cancel" to return
+eventEditorEnterDuration: Enter duration (in milliseconds)
+eventEditorAtLeastOneSecond: Amount must be at least 1 second! (1000 milliseconds)
+eventEditorNotGreaterThanOneSecond: ___ is not greater than 1 second! (1000 milliseconds)
+eventEditorThunder: Event Thunder
+eventEditorMustSetThunderDuration: You must set a thunder duration!
+eventEditorThunderCleared: Thunder data cleared.
+eventEditorEnterThunderWorld: Enter a world name for the thunder to occur in, or enter "cancel" to return
+eventEditorEffects: Event Effects
+eventEditorAddEffect: Add effect
+eventEditorAddEffectLocation: Add effect location
+eventEditorNoEffects: No effects set
+eventEditorMustAddEffects: You must add effects first!
+eventEditorInvalidEffect: ___ is not a valid effect name!
+eventEditorEffectsCleared: Event effects cleared.
+eventEditorEffectLocationPrompt: Right-click on a block to play an effect at, then enter "add" to add it to the list, or enter "cancel" to return
+eventEditorMobSpawns: Event Mob Spawns
+eventEditorAddMobTypes: Add mob
+eventEditorNoTypesSet: (No type set)
+eventEditorMustSetMobTypesFirst: You must set the mob type first!
+eventEditorSetMobAmounts: Set mob amount
+eventEditorNoAmountsSet: (No amounts set)
+eventEditorMustSetMobAmountsFirst: You must set mob amount first!
+eventEditorAddSpawnLocation: Set spawn location
+eventEditorMobSpawnsCleared: Mob spawns cleared.
+eventEditorMustSetMobLocationFirst: You must set a spawn-location first!
+eventEditorInvalidMob: ___ is not a valid mob name!
+eventEditorSetMobName: Set custom name for mob
+eventEditorSetMobType: Set mob type
+eventEditorSetMobItemInHand: Set item in hand
+eventEditorSetMobItemInHandDrop: Set drop chance of item in hand
+eventEditorSetMobBoots: Set boots
+eventEditorSetMobBootsDrop: Set drop chance of boots
+eventEditorSetMobLeggings: Set leggings
+eventEditorSetMobLeggingsDrop: Set drop chance of leggings
+eventEditorSetMobChestPlate: Set chest plate
+eventEditorSetMobChestPlateDrop: Set drop chance of chest plate
+eventEditorSetMobHelmet: Set helmet
+eventEditorSetMobHelmetDrop: Set drop chance of helmet
+eventEditorSetMobSpawnLoc: Right-click on a block to spawn a mob at, then enter "add" to the confirm it, or enter "cancel" to return
+eventEditorSetMobSpawnAmount: Set the amount of mobs to spawn
+eventEditorSetDropChance: Set the drop chance
+eventEditorInvalidDropChance: Drop chance has to be between 0.0 and 1.0
+eventEditorLightningPrompt: Right-click on a block to spawn a lightning strike at, then enter "add" to add it to the list, or enter "clear" to clear the locations list, or "cancel" to return
+eventEditorPotionEffects: Event Potion Effects
+eventEditorMustSetPotionTypesFirst: You must set potion effect types first!
+eventEditorSetPotionDurations: Set potion effect durations
+eventEditorMustSetPotionDurationsFirst: You must set potion effect durations first!
+eventEditorMustSetPotionTypesAndDurationsFirst: You must set potion effect types and durations first!
+eventEditorNoDurationsSet: (No durations set)
+eventEditorSetPotionMagnitudes: Set potion effect magnitudes
+eventEditorPotionsCleared: Potion effects cleared.
+eventEditorInvalidPotionType: ___ is not a valid potion effect type!
+eventEditorEnterNPCId: Enter NPC ID (or -1 to return)
+eventEditorNoNPCExists: No NPC exists with that id!
+eventEditorExplosionPrompt: Right-click on a block to spawn an explosion at, then enter "add" to add it to the list, or enter "clear" to clear the explosions list, or "cancel" to return
+eventEditorSelectBlockFirst: You must select a block first.
+eventEditorSetMessagePrompt: Enter message, or enter 'none' to delete, (or 'cancel' to return)
+eventEditorSetItemIDsPrompt: Enter item IDs separating each one by a space, or enter "cancel" to return.
+eventEditorSetItemAmountsPrompt: Enter item amounts (numbers) separating each one by a space, or enter "cancel" to return.
+eventEditorSetMobTypesPrompt: Enter mob name, or enter "cancel" to return
+eventEditorSetMobAmountsPrompt: Enter mob amount, or enter "cancel" to return
+eventEditorSetMobNamePrompt: Set the name for this mob, or enter "cancel" to return
+eventEditorSetMobLocationPrompt: Right-click on a block to select it, then enter "add" to add it to the mob spawn location list, or enter "cancel" to return
+eventEditorSetPotionEffectsPrompt: Enter potion effect types separating each one by a space, or enter "cancel" to return
+eventEditorSetPotionDurationsPrompt: Enter effect durations (in milliseconds) separating each one by a space, or enter "cancel" to return
+eventEditorSetPotionMagnitudesPrompt: Enter potion effect magnitudes separating each one by a space, or enter "cancel" to return
+eventEditorSetHungerPrompt: Enter hunger level, or -1 to remove it
+eventEditorHungerLevelAtLeastZero: Hunger level must be at least 0!
+eventEditorSetSaturationPrompt: Enter saturation level, or -1 to remove it
+eventEditorSaturationLevelAtLeastZero: Saturation level must be at least 0!
+eventEditorSetHealthPrompt: Enter health level, or -1 to remove it
+eventEditorHealthLevelAtLeastZero: Health level must be at least 0!
+eventEditorSetTeleportPrompt: 'Right-click on a block to teleport the player to, then
+  enter "done" to finish,
+
+  or enter "clear" to clear the teleport location, or "cancel" to return'
+eventEditorCommandsNote: 'Note: You may use <player> to refer to the player''s name.'
+eventEditorSetCommandsPrompt: Enter commands separating each one by a comma, or enter "clear" to clear the list, or enter "cancel" to return.
+eventEditorSet: ''
+effBlazeShoot: Sound of a Blaze firing
+effBowFire: Sound of a bow firing
+effClick1: A click sound
+effClick2: A different click sound
+effDoorToggle: Sound of a door opening or closing
+effExtinguish: Sound of fire being extinguished
+effGhastShoot: Sound of a Ghast firing
+effGhastShriek: Sound of a Ghast shrieking
+effZombieWood: Sound of a Zombie chewing an iron door
+effZombieIron: Sound of a Zombie chewing a wooden door
+effEnterName: Enter an effect name to add it to the list, or enter "cancel" to return
+cmdCancel: cancel
+cmdAdd: add
+cmdClear: clear
+cmdNone: none
+cmdDone: done
+event: Event
+delay: Delay
+save: Save
+exit: Exit
+exited: Exited
+cancel: Cancel
+back: Back
+'yes': 'Yes'
+'no': 'No'
+clear: Clear
+none: None
+done: Done
+quit: Quit
+noneSet: None set
+noDelaySet: No delay set
+noIdsSet: No IDs set
+worlds: Worlds
+mobs: Mobs
+invalidOption: Invalid option!
+npcHint: 'Note: You can left or right click on NPC''s to get their ID.'

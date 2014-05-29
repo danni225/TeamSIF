@@ -1,0 +1,8 @@
+Kick Mode: true
+Broadcast Mode: true
+Broadcast Message: '&c[Advertise-Blocker] &9Console &ehas kicked &9%player% &efor
+  advertising.'
+Replacer Mode: false
+Replaced Message: I LOVE this server!
+Allowed Players: ''
+Allowed: ''

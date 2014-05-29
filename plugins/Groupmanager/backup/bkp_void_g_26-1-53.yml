@@ -1,0 +1,94 @@
+groups:
+  Nobody:
+    default: false
+    permissions:
+    - -compassnav.hovedmenu.*
+    - group.nobody
+    inheritance: []
+    info:
+      prefix: '&aNobody&f '
+      build: false
+      suffix: '&b'
+  Gæst:
+    default: true
+    permissions:
+    - group.gæst
+    inheritance: []
+    info:
+      prefix: '&aGæst&f '
+      build: false
+      suffix: '&b'
+  Ny:
+    default: false
+    permissions:
+    - -bukkit.command.kill
+    - group.ny
+    inheritance:
+    - g:groupmanager_ny
+    - g:bukkit_ny
+    - g:essentials_ny
+    - g:towny_ny
+    - g:itags_ny
+    info:
+      prefix: '&dNy&f '
+      build: false
+      suffix: '&f'
+  Medlem:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:towny_medlem
+    - g:itags_ny
+    info:
+      prefix: '&2Medlem&e '
+      build: true
+      suffix: '&f'
+  Mod:
+    default: false
+    permissions:
+    - group.mod
+    inheritance:
+    - ultimate
+    - g:groupmanager_mod
+    - g:bukkit_mod
+    - g:essentials_mod
+    - g:vanish_mod
+    - g:itags_ny
+    info:
+      prefix: '&3Mod&5 '
+      build: true
+      suffix: '&6'
+  Admin:
+    default: false
+    permissions:
+    - compassnav.admin
+    - group.admin
+    inheritance:
+    - mod
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:vanish_mod
+    - g:vanish_admin
+    - g:itags_ny
+    info:
+      prefix: '&4Admin&5 '
+      build: true
+      suffix: '&6'
+  Ejer:
+    default: false
+    permissions:
+    - '*'
+    - group.ejer
+    inheritance:
+    - admin
+    - g:itags_ny
+    - g:vanish_mod
+    - g:vanish_admin
+    info:
+      prefix: '&4Ejer&5 '
+      build: true
+      suffix: '&6'

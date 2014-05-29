@@ -1,0 +1,48 @@
+Settings:
+  mysql: false
+  path-2-sqllitedb: jdbc:sqlite:plugins/VoteRanks/VoteRanks.db
+  mysql-user: VoteRanks
+  mysql-password: VoteRanks
+  mysql-database-url: jdbc:mysql://localhost:3306/VoteRanks
+  debug-mode: false
+  broadcast-rank-change: true
+  use-sidebar-4-votelist: true
+  use-chat-4-votelist: false
+  use-chat-4-votes: false
+  use-sidebar-4-votes: true
+  show-votes-on-tab: false
+  sidebar-show-time-seconds: 10
+  auto-db-reset: false
+  auto-db-reset-time-days: 30
+  command_vote: true
+Messages:
+  rank-change-msg: '&6<player> &aist einen Vote-Rang aufgestiegen (<rank>)'
+  votelist-header: '&4--- Die &6<size> &4besten Voter! ---'
+  votelist-place-format: '&6Rang: <rank>, Spieler <player> mit <votes> Votes!'
+  votes-see-format-more-than-one: '&aDu bist Platz <rank> mit <votes> Votes mit <same
+    rank> Anderen!'
+  votes-see-format: '&aDu bist Platz <rank> mit <votes> Votes!'
+  votes-see-format-others: '&a<player> ist Platz <rank> mit <votes> Votes!'
+  votes-see-format-others-more-than-one: '&a<player> ist Platz <rank> mit <votes>
+    Votes mit <same rank> Anderen!'
+  votes-player-not-found: '&4<player> ist nicht in der Datenbank!'
+  setvotes-not-int: '&4Bitte gebe eine Zahl an!'
+  setvotes-2less-para: '&4/setvotes Spieler Amount'
+  setvotes-success: '&a<player> hat nun <votes> Votes!'
+  clearvotes-sure: '&a Bist du sicher das du das tuen willst?'
+  clearvotes-deny: '&a Clearvotes wurde abgebrochen!'
+  clearvotes-working: '&aLösche alle Votes aus der Datenbank ...'
+  clearvotes-done: '&aAlle Votes aus der Datenbank wurden gelöscht!'
+  sidebar-votelist-header: '&4Die &6<size> &4besten Voter!'
+  sidebar-rank-name: '&6Rank:'
+  sidebar-votes-name: '&6Votes:'
+  sidebar-same-rank-name: '&6Mehrere User:'
+Goals:
+- votes=1;Message=Dein Erster Vote;broadcast=<player> hat 1 Vote;Give=264,1
+- votes=10;Message=10 Votes! Respekt!;broadcast=<player> hat 10 Vote
+- votes=50;Message=Nur weiter so und du wirst Vote-Koenig!;broadcast=<player> hat 50 Vote
+- votes=100;Message=Yeah du bist inoffizieller Vote-Koenig!;broadcast=<player> hat 100 Vote
+votesits:
+- '[BLUE]http://www.minecraft-serverlist.eu/'
+- '[BLUE]http://www.minecraft-serverlist.net/serverlist'
+- '[BLUE]http://serverliste.me/'

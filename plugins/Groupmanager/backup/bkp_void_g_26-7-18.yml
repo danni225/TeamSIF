@@ -1,0 +1,1601 @@
+groups:
+  Nobody:
+    default: false
+    permissions:
+    - -compassnav.hovedmenu.*
+    - group.nobody
+    inheritance: []
+    info:
+      prefix: '&aNobody&f '
+      build: false
+      suffix: '&b'
+  Gæst:
+    default: true
+    permissions:
+    - group.gæst
+    inheritance: []
+    info:
+      prefix: '&aGæst&f '
+      build: false
+      suffix: '&b'
+  Ny:
+    default: false
+    permissions:
+    - -bukkit.command.kill
+    - group.ny
+    inheritance:
+    - g:groupmanager_ny
+    - g:bukkit_ny
+    - g:essentials_ny
+    - g:itags_ny
+    info:
+      prefix: '&dNy&f '
+      build: false
+      suffix: '&f'
+  Medlem:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: '&2Medlem&e '
+      build: true
+      suffix: '&f'
+  Rød:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød1:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød2:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød3:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød4:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød5:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød6:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød7:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød8:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød9:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+   Rød10:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+   Rød10:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød11:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød12:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød13:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød14:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød15:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød16:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød17:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød18:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød19:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød20:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød21:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød22:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød23:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød24:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød25:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød26:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød27:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød28:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød29:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød30:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød31:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød32:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød33:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød34:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød35:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød36:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød37:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'	  
+  Rød38:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød39:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Rød40:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn1:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn2:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn3:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn4:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn5:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn6:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn7:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn8:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn9:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+   Grøn10:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+   Grøn10:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn11:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn12:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn13:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn14:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn15:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn16:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn17:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn18:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn19:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn20:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn21:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn22:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn23:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn24:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn25:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn26:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn27:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn28:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn29:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn30:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn31:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn32:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn33:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn34:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn35:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn36:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn37:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Grøn38:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn39:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Grøn40:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+
+  Blå:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå1:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå2:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå3:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå4:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå5:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå6:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå7:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå8:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå9:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+   Blå10:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+   Blå10:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå11:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå12:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå13:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå14:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå15:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå16:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå17:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå18:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå19:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå20:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå21:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå22:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå23:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå24:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå25:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå26:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå27:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå28:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå29:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå30:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå31:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå32:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå33:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå34:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå35:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå36:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå37:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'       
+  Blå38:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå39:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Blå40:
+    default: false
+    permissions:
+    - group.medlem
+    inheritance:
+    - ny
+    - g:essentials_medlem
+    - g:itags_ny
+    info:
+      prefix: ''
+      build: true
+      suffix: '&f'
+  Mod:
+    default: false
+    permissions:
+    - group.mod
+    inheritance:
+    - medlem
+    - g:groupmanager_mod
+    - g:bukkit_mod
+    - g:essentials_mod
+    - g:vanish_mod
+    - g:itags_ny
+    info:
+      prefix: '&3Mod&5 '
+      build: true
+      suffix: '&6'
+  Admin:
+    default: false
+    permissions:
+    - group.admin
+    - compassnav.admin
+    inheritance:
+    - mod
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:vanish_mod
+    - g:itags_ny
+    info:
+      prefix: '&4Admin&5 '
+      build: true
+      suffix: '&6'
+  Ejer:
+    default: false
+    permissions:
+    - group.ejer
+    inheritance:
+    - admin
+    - g:itags_ny
+    info:
+      prefix: '&4Ejer&5 '
+      build: true
+      suffix: '&6'

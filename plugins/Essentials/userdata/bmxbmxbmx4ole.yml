@@ -1,0 +1,19 @@
+timestamps:
+  login: 1401210450690
+  logout: 1401210574516
+geolocation: Denmark
+ipAddress: 87.104.138.101
+lastlocation:
+  world: Void
+  x: 23.000011401125747
+  y: 65.0
+  z: 85.78087776846183
+  yaw: -70.37528
+  pitch: 36.44999
+logoutlocation:
+  world: Void
+  x: 26.435534513960217
+  y: 109.20000004768372
+  z: -37.56600290508092
+  yaw: 119.44237
+  pitch: 89.399994

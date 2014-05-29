@@ -1,0 +1,202 @@
+# Configuration for CompassNavigation by DenialMC
+# reloadMessage: The message players see after reloading the plugin
+# noPermMessage: The message players see after trying to reload the plugin without permission
+# cantUpdateMessage: The message players see after trying to update with auto updater disabled
+# updateSuccessMessage: The message players see after updating the plugin successfully
+# updateFailedMessage: The message players see after failing to update the plugin
+# notEnoughMessage: The message players see after trying to open an item but not having enough money
+# chargedMessage: The message players see after being charged money
+# cantConnectMessage: The message players see after trying to connect while server is offline
+# warmUpMessage: The message players see after teleporting while players were near
+# cantUseMessage: The message players see after teleporting in an area they cannot do so
+# openedForMessage: The message players see after they open the inventory for somebody else
+# notOnlineMessage: The message players see after they try to open the inventory for an offline player
+# teleportCancelMessage: The message players see when they move during the warmup
+# commandHelpMessage: The messages players see when they do /cn help
+# autoUpdate: Enable auto updater
+# sounds: Enable sounds or not
+# warmUp: Have a delay of X seconds when players are in a radius of X blocks or not
+# warmUpTime: The warmup delay
+# warmUpDistance: The warmup block radius
+# signTitle: The title of the navigation sign
+# teleportSound: The teleport sound
+# noPermSound: The no permission sound
+# noPermLore: The lore added to the item if you cant use it
+# commands: List of inventory commands. First name is the command and second is the inventory name.
+# items: List of inventory items. First name is the item ID and second is the inventory name.
+# disabledWorlds: The list of disabled worlds
+# Please read the reference guide in order to create inventories.
+
+general:
+  reloadMessage: '&eSuccesfully reloaded CompassNavigation!'
+  noPermMessage: '&4You do not have access to that command.'
+  cantUpdateMessage: '&eSorry, but the auto updater is disabled.'
+  updateSuccessMessage: '&eSuccessfully updated CompassNavigation!'
+  updateFailedMessage: '&eThe update was unsuccessful, please check the console.'
+  notEnoughMessage: '&eSorry, but you do not have enough money.'
+  chargedMessage: '&eCharged &6$<price> &efrom you!'
+  cantConnectMessage: '&eSorry, but that server is offline!'
+  warmUpMessage: '&eTeleporting you in &6<time> &eseconds, do not move!'
+  cantUseMessage: '&eSorry, but you can''t use the compass here.'
+  openedForMessage: '&eSuccessfully opened &6<inventory> &einventory for &6<player>&e!'
+  notOnlineMessage: '&eSorry, but &6<player> &eis not online!'
+  teleportCancelMessage: '&eTeleportation cancelled.'
+  commandHelpMessage:
+  - '&6&lCOMPASSNAVIGATION &f| &7/compassnav help'
+  - '&6Oo-----------------------oOo-----------------------oO'
+  - '&2/compassnav reload &a- Reload the plugin'
+  - '&2/compassnav update &a- Update the plugin'
+  - '&6Oo-----------------------oOo-----------------------oO'
+settings:
+  autoUpdate: false
+  sounds: true
+  warmUp: true
+  warmUpTime: 5
+  warmUpDistance: 25
+  signTitle: '&1[Teleport]'
+  teleportSound: ENDERMAN_TELEPORT
+  noPermSound: ZOMBIE_IDLE
+  noPermLore: '&4No permission'
+  commands:
+    compass: teleport
+    wasd: Hovedmenu
+  items: []
+  disabledWorlds: []
+  Hovedmenu:
+    title: '&3SIF Hovedmenu'
+    rows: 1
+    '1':
+      id: '340'
+      name: '&e&lSpawn'
+      lore:
+      - '&6Gaa til Spawn'
+      warp: spawn
+    '2':
+      id: '386'
+      name: '&e&lRegler'
+      lore:
+      - '&6Gaa til Regler'
+      warp: regler
+    '3':
+      id: '264'
+      name: '&e&lServer shop'
+      lore:
+      - '&6Gaa til Server shoppen'
+      warp: servershop
+    '4':
+      id: '386'
+      name: '&e&lDonerings Info'
+      lore:
+      - '&6Information om donering'
+      warp: doneringsinfo
+    '6':
+      id: '276'
+      name: '&e&lPvP og Spil'
+      lore:
+      - '&6Kaemp i arana og spil vores spil'
+      inventory: PvP
+    '7':
+      id: '42'
+      name: '&e&lDonators menu'
+      lore:
+      - '&6Kun for vores doneringsranks'
+      inventory: Donator
+    '8':
+      id: '7'
+      name: '&e&lStaffets menu'
+      lore:
+      - '&6Kun for vores staff ranks'
+      inventory: Staff
+  PvP:
+    title: '&3PvP og Spil!'
+    rows: 1
+    '1':
+      id: 276
+      name: '&e&lPvP Arena'
+      lore:
+      - '&6Gaa til PvP Arenaen'
+      - '&6Du starter i safezone'
+      enchanted: true
+      warp: pvpstartrum
+    '3':
+      id: '383:51'
+      name: '&e&lJoin Mob Arena'
+      lore:
+      - '&6Du joiner med det samme Mob Arena'
+      commands:
+      - ma join SIF
+    '4':
+      id: '52:51'
+      name: '&e&lSpectator Mob Arena'
+      lore:
+      - '&6Du spectator med det samme Mob Arena'
+      commands:
+      - ma spec SIF
+    '6':
+      id: '277'
+      name: '&e&lJoin Spleef Arena'
+      lore:
+      - '&6Du joiner med det samme Spleef Arena'
+      commands:
+      - spleef join SIF
+    '7':
+      id: '284'
+      name: '&e&lSpectator Spleef Arena'
+      lore:
+      - '&6Du spectator med det samme Spleef Arena'
+      commands:
+      - spleef watch SIF
+    '9':
+      id: '35:5'
+      name: '&e&lHovedmenu'
+      inventory: Hovedmenu
+  Donator:
+    title: '&3Donators menu'
+    rows: 1
+    '1':
+      id: 58
+      name: '&e&lDonator craftrum'
+      lore:
+      - '&6Gaa til donators craftingsrum'
+      warp: donatorrum
+    '2':
+      id: 49
+      name: '&e&lBlackStreet'
+      lore:
+      - '&6Den hemmelige shop'
+      warp: blacksmith
+    '3':
+      id: 403
+      name: '&e&lSpawn udgang'
+      lore:
+      - '&6Spawn udgangen - Vest'
+      warp: spawnudgangvest
+    '9':
+      id: '35:5'
+      name: '&e&lHovedmenu'
+      inventory: Hovedmenu
+  Staff:
+    title: '&Staffets menu'
+    rows: 1
+    '1':
+      id: 58
+      name: '&e&lGM Island'
+      lore:
+      - '&6Gaa til GM Island'
+      warp: GMIsland
+    '2':
+      id: 323
+      name: '&e&lSkilte rummet'
+      lore:
+      - '&6En kopi af alle vores skilte'
+      warp: staffskilterum
+    '3':
+      id: 101
+      name: '&e&lJail'
+      lore:
+      - '&6Gaa til Jail'
+      warp: staffjail
+    '9':
+      id: '35:5'
+      name: '&e&lHovedmenu'
+      inventory: Hovedmenu

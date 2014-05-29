@@ -1,0 +1,7 @@
+format: '[{World}] {Prefix} {Name}: {Message}'
+variables: http://dev.bukkit.org/bukkit-plugins/cm-chatmanager/pages/variables/
+message:
+  join: '&2[&2+&2] {Prefix} {Player}'
+  quit: '&2[&c-&2] {Prefix} {Player}'
+prefix:
+  firstjoin: ''
