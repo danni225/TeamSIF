@@ -5,10 +5,6 @@ Hide_Join_Leave_Message: false
 
 Messages:
   MessageJoin:
-    - '&e[&a+&e] &l%p &ehas joined us !'
-    - '&e[&a+&e] &l%p &ehas joined the server !'
-    - '&e[&a+&e] &l%p &eis happy to join us !'
+    - '&2[&2+&2] &l%p &eer joined serveren !'
   MessageLeave:
-    - '&e[&a-&e] &l%p &ehas leave us !'
-    - '&e[&a-&e] &l%p &ehas leave the server !'
-    - '&e[&a+&e] &l%p &eis NOT happy to leave us !'
+    - '&2[&c-&2] &l%p &ehar forladt serveren !'
