@@ -2037,8 +2037,6 @@ groups:
     - -vanish.effects.lightning
     - -vanish.effects.flames
     - -vanish.effects.bats
-    - -messagejoin.join.vanish
-    - -messagejoin.leave.vanish
     inheritance:
     - mod
     - g:groupmanager_admin
@@ -2064,8 +2062,6 @@ groups:
     - -vanish.effects.lightning
     - -vanish.effects.flames
     - -vanish.effects.bats
-    - -messagejoin.join.vanish
-    - -messagejoin.leave.vanish
     inheritance:
     - admin
     - g:groupmanager_admin
@@ -2074,6 +2070,6 @@ groups:
     - g:vanish_admin
     - g:itags_ny
     info:
-      prefix: '&4Ejer&5 '
+      prefix: '&4Owner&5 '
       build: true
       suffix: '&6'

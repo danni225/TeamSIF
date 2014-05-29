@@ -2000,6 +2000,11 @@ groups:
       prefix: '&8[&e40&8]&f '
       build: true
       suffix: '&f'
+
+
+
+
+
   Mod:
     default: false
     permissions:
@@ -2037,8 +2042,6 @@ groups:
     - -vanish.effects.lightning
     - -vanish.effects.flames
     - -vanish.effects.bats
-    - -messagejoin.join.vanish
-    - -messagejoin.leave.vanish
     inheritance:
     - mod
     - g:groupmanager_admin
@@ -2050,7 +2053,7 @@ groups:
       prefix: '&4Admin&5 '
       build: true
       suffix: '&6'
-  Ejer:
+  Owner:
     default: false
     permissions:
     - group.ejer
@@ -2064,8 +2067,6 @@ groups:
     - -vanish.effects.lightning
     - -vanish.effects.flames
     - -vanish.effects.bats
-    - -messagejoin.join.vanish
-    - -messagejoin.leave.vanish
     inheritance:
     - admin
     - g:groupmanager_admin
@@ -2074,6 +2075,6 @@ groups:
     - g:vanish_admin
     - g:itags_ny
     info:
-      prefix: '&4Ejer&5 '
+      prefix: '&4Owner&5 '
       build: true
       suffix: '&6'

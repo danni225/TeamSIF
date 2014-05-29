@@ -1,6 +1,6 @@
 timestamps:
-  login: 1401373889106
-  logout: 1401373493385
+  login: 1401397507242
+  logout: 1401397501641
   lastteleport: 1400949507494
   kits:
     tools: 1395520987977
@@ -15,14 +15,14 @@ lastlocation:
   z: 126.98788205595625
   yaw: -1.6755066
   pitch: 1.0502193
-afk: true
+afk: false
 logoutlocation:
   world: Void
-  x: 21.44464494379931
+  x: 28.261770562345564
   y: 101.0
-  z: -42.86160544004454
-  yaw: -359.81854
-  pitch: 24.298916
+  z: -36.37549800369482
+  yaw: -264.72516
+  pitch: 22.200022
 money: '0'
 geolocation: Denmark
 godmode: false

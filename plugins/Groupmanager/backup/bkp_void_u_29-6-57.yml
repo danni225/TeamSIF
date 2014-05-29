@@ -1,0 +1,28 @@
+users:
+  danni225:
+    group: Ejer
+    subgroups: []
+    permissions: []
+  ElgarL:
+    group: Gæst
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  KHobbits:
+    group: Gæst
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  nobikanu:
+    group: Ejer
+    subgroups: []
+    permissions: []
+  Pcornel:
+    group: Admin
+    subgroups: []
+    permissions: []
+  snowleo:
+    group: Gæst
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

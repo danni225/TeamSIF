@@ -3,10 +3,6 @@ users:
     group: Ejer
     subgroups: []
     permissions: []
-  LiquidGriffin:
-    group: Ejer
-    subgroups: []
-    permissions: []
   Pcornel:
     group: Yellow30
     subgroups: []

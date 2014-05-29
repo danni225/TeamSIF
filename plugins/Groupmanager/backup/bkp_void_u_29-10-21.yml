@@ -1,10 +1,6 @@
 users:
   danni225:
-    group: Ejer
-    subgroups: []
-    permissions: []
-  LiquidGriffin:
-    group: Ejer
+    group: Nobody
     subgroups: []
     permissions: []
   Pcornel:

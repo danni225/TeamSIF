@@ -1,9 +1,4 @@
 currentQuest: none
 currentStage: none
 quest-points: 1
-completed-Quests:
-- Stone Miner
-completedRedoableQuests:
-- Stone Miner
-completedQuestTimes:
-- 1401032939617
+completed-Quests: none
