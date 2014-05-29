@@ -3,8 +3,6 @@
 # læs følgende: https://github.com/danni225/TeamSIF/blob/master/README.md
 
 groups:
-
-
   g:groupmanager_ny:
     permissions:
     - groupmanager.notify.self
