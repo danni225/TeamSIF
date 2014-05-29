@@ -1,0 +1,14 @@
+Hide_Join_Leave_Message: false
+
+#### Use %p for define the player who join or left your server ####
+#### Set infinite of messages ! It's Random when a player join/leave the server ####
+
+Messages:
+  MessageJoin:
+    - '&e[&a+&e] &l%p &ehas joined us !'
+    - '&e[&a+&e] &l%p &ehas joined the server !'
+    - '&e[&a+&e] &l%p &eis happy to join us !'
+  MessageLeave:
+    - '&e[&a-&e] &l%p &ehas leave us !'
+    - '&e[&a-&e] &l%p &ehas leave the server !'
+    - '&e[&a+&e] &l%p &eis NOT happy to leave us !'
