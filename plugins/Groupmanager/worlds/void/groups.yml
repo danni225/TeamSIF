@@ -29,7 +29,7 @@ groups:
     - g:essentials_ny
     - g:itags_ny
     info:
-      prefix: '&IngenGruppe&f '
+      prefix: '&dIngenGruppe&f '
       build: false
       suffix: '&f'
   Rød:
