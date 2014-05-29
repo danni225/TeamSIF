@@ -51,7 +51,7 @@ worlds:
     ==: MVWorld
     hidden: 'false'
     alias: Blue
-    color: WHITE
+    color: BLUE
     style: NORMAL
     pvp: 'false'
     scale: '1.0'
@@ -99,7 +99,7 @@ worlds:
     ==: MVWorld
     hidden: 'false'
     alias: ''
-    color: WHITE
+    color: RED
     style: NORMAL
     pvp: 'false'
     scale: '1.0'
@@ -147,7 +147,7 @@ worlds:
     ==: MVWorld
     hidden: 'false'
     alias: ''
-    color: WHITE
+    color: GREY
     style: NORMAL
     pvp: 'false'
     scale: '1.0'
@@ -195,7 +195,7 @@ worlds:
     ==: MVWorld
     hidden: 'false'
     alias: ''
-    color: WHITE
+    color: GREEN
     style: NORMAL
     pvp: 'false'
     scale: '1.0'
@@ -242,8 +242,8 @@ worlds:
   Void:
     ==: MVWorld
     hidden: 'false'
-    alias: Void
-    color: WHITE
+    alias: SKIB
+    color: LIGHT_BLUE
     style: NORMAL
     pvp: 'false'
     scale: '1.0'
@@ -291,7 +291,7 @@ worlds:
     ==: MVWorld
     hidden: 'false'
     alias: ''
-    color: WHITE
+    color: YELLOW
     style: NORMAL
     pvp: 'false'
     scale: '1.0'
