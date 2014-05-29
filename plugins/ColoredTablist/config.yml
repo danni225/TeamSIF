@@ -3,15 +3,150 @@ UpdateEvery15Seconds: true
 UsePermissions: false
 UseChatNames: false
 Groups:
-  Member:
+  Nobody:
+    prefix: '&e'
+    suffix: ''  
+  IngenGruppe:
     prefix: '&e'
     suffix: ''
+  Rød1:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød2:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød3:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød4:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød5:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød6:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød7:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød8:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød9:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød10:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød11:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød12:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød13:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød14:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød15:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød16:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød16:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød16:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød17:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød18:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød19:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød20:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød21:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød22:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød23:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød24:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød25:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød26:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød27:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød28:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød29:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød30:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød31:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød32:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød33:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød34:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød35:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød36:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød37:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød38:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød39:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Rød40:
+    prefix: '&8[&c1&8]&f'
+    suffix: ''
+  Grøn1:
+    prefix: '&8[&21&8]&f'
+    suffix: ''
+  Blå1:
+    prefix: '&8[&c11&8]&f'
+    suffix: ''
+  Mod:
+    prefix: '&3Mod&5'
+    suffix: ''
   Admin:
-    prefix: '&a'
-    suffix: '[A]'
-prefix1: new
-prefix2: exp
-prefix3: mod
-prefix4: admin
-prefix5: BOSS
-prefix6: idk
+    prefix: '&4Admin&5'
+    suffix: ''
+  Ejer:
+    prefix: '&4Ejer&5'
+    suffix: ''
